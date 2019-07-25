@@ -1,0 +1,2 @@
+INSERT INTO ADDRESS (GOVERNORATE, CITY, STREET, CREATED_BY, CREATION_DATE) VALUES ('cairo','cairo', 'cairo', 1,CURDATE());
+INSERT INTO USER (USERNAME, NAME, EMAIL, MOBILE, PASSWORD, TYPE, language, address_id, CREATED_BY, CREATION_DATE, active) VALUES ('siteAdmin','admin', 'admin@admin.com', '010012013', '$2a$10$tmn1PfqBYZTq68nBzqLPGOoJTS3THs0fKVjmb/26SWq0jIdQPUegy', 'OWNER', 'en', 1, 1,CURDATE(), true);
